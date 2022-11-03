@@ -1,9 +1,7 @@
 # pwsh__Openssl
-
-Powershell script to quickly encrypt and decrypt files with OpenSSL (using `aes-256-cbc` with 1mil iterations).
+Powershell module with utils to encrypt and decrypt files with OpenSSL (using `aes-256-cbc` with 1mil iterations).
 
 # Usage
-
 ```powershell
 # First import the module
 Import-Module ./Openssl.psm1
